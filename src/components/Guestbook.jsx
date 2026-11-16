@@ -34,9 +34,7 @@ export default function Guestbook({ couple }) {
 
     const unsubscribe = subscribeToGuestWishes(
       (realtimeWishes) => {
-        if (realtimeWishes && realtimeWishes.length > 0) {
-          setWishesList(realtimeWishes);
-        }
+        setWishesList(realtimeWishes || []);
         setIsLive(true);
       },
       (err) => {

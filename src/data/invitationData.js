@@ -63,20 +63,5 @@ export const invitationConfig = {
   ],
 
   // Initial guestbook wishes
-  initialWishes: [
-    {
-      id: "w-1",
-      name: "الأهل والأصدقاء",
-      wishes: "ألف مبروك لأجمل عروسين! بارك الله لكما وجمع بينكما في خير وسعادة دائمة.",
-      timestamp: "اليوم",
-      likes: 14,
-    },
-    {
-      id: "w-2",
-      name: "الأصحاب",
-      wishes: "مبروك يا علي وبسملة! ربنا يتمملكم بألف خير ويسعد أيامكم.",
-      timestamp: "اليوم",
-      likes: 9,
-    },
-  ],
+  initialWishes: [],
 };
